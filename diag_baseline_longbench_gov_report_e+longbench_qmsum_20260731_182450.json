@@ -1,0 +1,1885 @@
+{
+  "mode": "baseline",
+  "by_level": [
+    {
+      "layer": 0,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 0,
+      "slot_width": 2,
+      "logit_mae": 0.7553576014027027,
+      "logit_rmse": 1.2300208971798954,
+      "intra_slot_logit_var": 2.7687926301784302,
+      "value_mae": 0.06346196508596268,
+      "value_rel": 0.5306877447550431
+    },
+    {
+      "layer": 0,
+      "slot_width": 4,
+      "logit_mae": 1.141955717861774,
+      "logit_rmse": 1.5772883946855532,
+      "intra_slot_logit_var": 3.61115661948684,
+      "value_mae": 0.07187365435512784,
+      "value_rel": 0.6507411762009353
+    },
+    {
+      "layer": 0,
+      "slot_width": 8,
+      "logit_mae": 1.7346330366315696,
+      "logit_rmse": 2.322808052870665,
+      "intra_slot_logit_var": 5.866855495117377,
+      "value_mae": 0.07174700604349733,
+      "value_rel": 0.7117414427191562
+    },
+    {
+      "layer": 0,
+      "slot_width": 16,
+      "logit_mae": 2.721336940280711,
+      "logit_rmse": 3.519031796635915,
+      "intra_slot_logit_var": 10.343010142143356,
+      "value_mae": 0.07185289156858643,
+      "value_rel": 0.7582629302767336
+    },
+    {
+      "layer": 0,
+      "slot_width": 32,
+      "logit_mae": 3.040947091145485,
+      "logit_rmse": 3.9207303830571103,
+      "intra_slot_logit_var": 12.203216095297444,
+      "value_mae": 0.06632255129436354,
+      "value_rel": 0.7536627097609722
+    },
+    {
+      "layer": 1,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 1,
+      "slot_width": 2,
+      "logit_mae": 0.5074881600791007,
+      "logit_rmse": 0.8851698777826825,
+      "intra_slot_logit_var": 1.6546727898745848,
+      "value_mae": 0.05350436281921538,
+      "value_rel": 0.4625127347712982
+    },
+    {
+      "layer": 1,
+      "slot_width": 4,
+      "logit_mae": 0.9644462489976333,
+      "logit_rmse": 1.4187968654349177,
+      "intra_slot_logit_var": 2.70080807458948,
+      "value_mae": 0.06723449350927635,
+      "value_rel": 0.6743670065080051
+    },
+    {
+      "layer": 1,
+      "slot_width": 8,
+      "logit_mae": 1.3553985625262965,
+      "logit_rmse": 1.8043447179893566,
+      "intra_slot_logit_var": 3.454388970822523,
+      "value_mae": 0.06997581275107093,
+      "value_rel": 0.7921491691466682
+    },
+    {
+      "layer": 1,
+      "slot_width": 16,
+      "logit_mae": 1.5760645008288447,
+      "logit_rmse": 2.0157421949271117,
+      "intra_slot_logit_var": 3.813268237872289,
+      "value_mae": 0.06692737207805344,
+      "value_rel": 0.8392053297093957
+    },
+    {
+      "layer": 1,
+      "slot_width": 32,
+      "logit_mae": 1.6618834256615322,
+      "logit_rmse": 2.044065193605302,
+      "intra_slot_logit_var": 3.8942148016658025,
+      "value_mae": 0.06389654397453945,
+      "value_rel": 0.8723133993863549
+    },
+    {
+      "layer": 2,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 2,
+      "slot_width": 2,
+      "logit_mae": 0.6189199417808856,
+      "logit_rmse": 1.1024844811052592,
+      "intra_slot_logit_var": 2.255605222516161,
+      "value_mae": 0.07041088740970568,
+      "value_rel": 0.42190830016167846
+    },
+    {
+      "layer": 2,
+      "slot_width": 4,
+      "logit_mae": 1.3054191166381475,
+      "logit_rmse": 1.908699117640642,
+      "intra_slot_logit_var": 3.7910644214175457,
+      "value_mae": 0.09497922315359743,
+      "value_rel": 0.6460871681916563
+    },
+    {
+      "layer": 2,
+      "slot_width": 8,
+      "logit_mae": 1.8757339671895006,
+      "logit_rmse": 2.5188216260800433,
+      "intra_slot_logit_var": 4.756855115036963,
+      "value_mae": 0.10284174067805045,
+      "value_rel": 0.7760570040233188
+    },
+    {
+      "layer": 2,
+      "slot_width": 16,
+      "logit_mae": 2.2168955253091025,
+      "logit_rmse": 2.8736886699628075,
+      "intra_slot_logit_var": 5.313124657005435,
+      "value_mae": 0.10171259076601104,
+      "value_rel": 0.8436075814866227
+    },
+    {
+      "layer": 2,
+      "slot_width": 32,
+      "logit_mae": 2.3955732831607794,
+      "logit_rmse": 2.9207419894567455,
+      "intra_slot_logit_var": 5.441888829625393,
+      "value_mae": 0.10185895206075664,
+      "value_rel": 0.9285154403915242
+    },
+    {
+      "layer": 3,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 3,
+      "slot_width": 2,
+      "logit_mae": 0.6552152903974332,
+      "logit_rmse": 1.1540083999414463,
+      "intra_slot_logit_var": 2.4252559177012847,
+      "value_mae": 0.1489226666086331,
+      "value_rel": 0.43784666580859016
+    },
+    {
+      "layer": 3,
+      "slot_width": 4,
+      "logit_mae": 1.4043810999379167,
+      "logit_rmse": 2.0639056452595743,
+      "intra_slot_logit_var": 4.075791607447575,
+      "value_mae": 0.200197442761037,
+      "value_rel": 0.666726220745568
+    },
+    {
+      "layer": 3,
+      "slot_width": 8,
+      "logit_mae": 2.018342681598035,
+      "logit_rmse": 2.605797140006976,
+      "intra_slot_logit_var": 5.026148112140761,
+      "value_mae": 0.21436223022146125,
+      "value_rel": 0.795467020420546
+    },
+    {
+      "layer": 3,
+      "slot_width": 16,
+      "logit_mae": 2.8802167996579575,
+      "logit_rmse": 3.5539249946456857,
+      "intra_slot_logit_var": 6.464025066655262,
+      "value_mae": 0.21943214856928464,
+      "value_rel": 0.906167710320801
+    },
+    {
+      "layer": 3,
+      "slot_width": 32,
+      "logit_mae": 3.7879541956638114,
+      "logit_rmse": 4.83175401811068,
+      "intra_slot_logit_var": 6.80034472447136,
+      "value_mae": 0.2051520485438933,
+      "value_rel": 1.0997064251460662
+    },
+    {
+      "layer": 4,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 4,
+      "slot_width": 2,
+      "logit_mae": 0.3970834909647345,
+      "logit_rmse": 0.7381762620089588,
+      "intra_slot_logit_var": 1.2322818537185902,
+      "value_mae": 0.12735887417180702,
+      "value_rel": 0.35258625395244847
+    },
+    {
+      "layer": 4,
+      "slot_width": 4,
+      "logit_mae": 0.8522286745794527,
+      "logit_rmse": 1.3478786690164002,
+      "intra_slot_logit_var": 2.259402265713422,
+      "value_mae": 0.16962050617035448,
+      "value_rel": 0.5328301477447847
+    },
+    {
+      "layer": 4,
+      "slot_width": 8,
+      "logit_mae": 1.186586884813039,
+      "logit_rmse": 1.6948204589364593,
+      "intra_slot_logit_var": 2.823011333135984,
+      "value_mae": 0.17765230167655693,
+      "value_rel": 0.6094011972967575
+    },
+    {
+      "layer": 4,
+      "slot_width": 16,
+      "logit_mae": 2.126934323232524,
+      "logit_rmse": 3.0205553920379997,
+      "intra_slot_logit_var": 4.892992032868409,
+      "value_mae": 0.190308989720918,
+      "value_rel": 0.7028935111021901
+    },
+    {
+      "layer": 4,
+      "slot_width": 32,
+      "logit_mae": 3.046718344188094,
+      "logit_rmse": 4.408091679993536,
+      "intra_slot_logit_var": 5.52188920668412,
+      "value_mae": 0.17290731364705578,
+      "value_rel": 0.8160894177455208
+    },
+    {
+      "layer": 5,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 5,
+      "slot_width": 2,
+      "logit_mae": 0.7065400954855816,
+      "logit_rmse": 1.3318622492559462,
+      "intra_slot_logit_var": 2.933744561402282,
+      "value_mae": 0.16775706652663785,
+      "value_rel": 0.45483828786082303
+    },
+    {
+      "layer": 5,
+      "slot_width": 4,
+      "logit_mae": 1.4092282346305343,
+      "logit_rmse": 2.1811239867800376,
+      "intra_slot_logit_var": 4.264623612886269,
+      "value_mae": 0.22077112766250065,
+      "value_rel": 0.6870281681281264
+    },
+    {
+      "layer": 5,
+      "slot_width": 8,
+      "logit_mae": 1.7049790486953185,
+      "logit_rmse": 2.321684068768318,
+      "intra_slot_logit_var": 4.110470486980499,
+      "value_mae": 0.22669135472054908,
+      "value_rel": 0.7703805655021623
+    },
+    {
+      "layer": 5,
+      "slot_width": 16,
+      "logit_mae": 2.5482080870947184,
+      "logit_rmse": 3.3632813153019248,
+      "intra_slot_logit_var": 5.825324247941693,
+      "value_mae": 0.23011223668815609,
+      "value_rel": 0.8643144108925958
+    },
+    {
+      "layer": 5,
+      "slot_width": 32,
+      "logit_mae": 3.3633642584659813,
+      "logit_rmse": 4.310810447374157,
+      "intra_slot_logit_var": 6.4249312341596125,
+      "value_mae": 0.21700824047309172,
+      "value_rel": 1.0118670657564282
+    },
+    {
+      "layer": 6,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 6,
+      "slot_width": 2,
+      "logit_mae": 0.5559977860484348,
+      "logit_rmse": 1.0453090264223972,
+      "intra_slot_logit_var": 2.0309096858621527,
+      "value_mae": 0.12937836397814526,
+      "value_rel": 0.3367403957204353
+    },
+    {
+      "layer": 6,
+      "slot_width": 4,
+      "logit_mae": 1.1742039466617535,
+      "logit_rmse": 1.819375536834452,
+      "intra_slot_logit_var": 3.7758411305937933,
+      "value_mae": 0.18286307689180353,
+      "value_rel": 0.522747968746989
+    },
+    {
+      "layer": 6,
+      "slot_width": 8,
+      "logit_mae": 1.7615523508656445,
+      "logit_rmse": 2.4841271724138565,
+      "intra_slot_logit_var": 5.106817156212684,
+      "value_mae": 0.20578133585101085,
+      "value_rel": 0.6306133801971282
+    },
+    {
+      "layer": 6,
+      "slot_width": 16,
+      "logit_mae": 2.224944803641894,
+      "logit_rmse": 2.997844444345948,
+      "intra_slot_logit_var": 5.969741560356698,
+      "value_mae": 0.2118515136629559,
+      "value_rel": 0.6990837612271998
+    },
+    {
+      "layer": 6,
+      "slot_width": 32,
+      "logit_mae": 2.645881987741213,
+      "logit_rmse": 3.425997119215896,
+      "intra_slot_logit_var": 6.4796243214249865,
+      "value_mae": 0.19626865550333222,
+      "value_rel": 0.7629997857888199
+    },
+    {
+      "layer": 7,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 7,
+      "slot_width": 2,
+      "logit_mae": 0.2865541991596962,
+      "logit_rmse": 0.5022742596805054,
+      "intra_slot_logit_var": 0.7655135908864728,
+      "value_mae": 0.16550915185775256,
+      "value_rel": 0.3116872756296077
+    },
+    {
+      "layer": 7,
+      "slot_width": 4,
+      "logit_mae": 0.7491164625263765,
+      "logit_rmse": 1.1866688423856153,
+      "intra_slot_logit_var": 1.9378909435984253,
+      "value_mae": 0.24003236594447655,
+      "value_rel": 0.5046020470769971
+    },
+    {
+      "layer": 7,
+      "slot_width": 8,
+      "logit_mae": 1.3875040352875667,
+      "logit_rmse": 1.9638676331388425,
+      "intra_slot_logit_var": 3.2445965544838447,
+      "value_mae": 0.27871666565185277,
+      "value_rel": 0.6354170416270702
+    },
+    {
+      "layer": 7,
+      "slot_width": 16,
+      "logit_mae": 1.9633205567542222,
+      "logit_rmse": 2.583351336194929,
+      "intra_slot_logit_var": 4.163783213518361,
+      "value_mae": 0.29444373371875254,
+      "value_rel": 0.7174502652293336
+    },
+    {
+      "layer": 7,
+      "slot_width": 32,
+      "logit_mae": 2.4422981948362428,
+      "logit_rmse": 3.236049474217217,
+      "intra_slot_logit_var": 4.3771834118207975,
+      "value_mae": 0.29010734517262887,
+      "value_rel": 0.7792284534625885
+    },
+    {
+      "layer": 8,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 8,
+      "slot_width": 2,
+      "logit_mae": 0.36908592532307954,
+      "logit_rmse": 0.65037361649204,
+      "intra_slot_logit_var": 1.071167431126199,
+      "value_mae": 0.21005770845972208,
+      "value_rel": 0.2932287967521112
+    },
+    {
+      "layer": 8,
+      "slot_width": 4,
+      "logit_mae": 0.7692737756760702,
+      "logit_rmse": 1.1301629653901875,
+      "intra_slot_logit_var": 2.00674886878307,
+      "value_mae": 0.32713420791844605,
+      "value_rel": 0.4580149531678203
+    },
+    {
+      "layer": 8,
+      "slot_width": 8,
+      "logit_mae": 1.1253615210103416,
+      "logit_rmse": 1.494150461299422,
+      "intra_slot_logit_var": 2.757399179103161,
+      "value_mae": 0.4037037530364754,
+      "value_rel": 0.5615341956742002
+    },
+    {
+      "layer": 8,
+      "slot_width": 16,
+      "logit_mae": 1.7160565286007805,
+      "logit_rmse": 2.1709421541702554,
+      "intra_slot_logit_var": 3.8551470650284947,
+      "value_mae": 0.5532760315612225,
+      "value_rel": 0.6693094593702767
+    },
+    {
+      "layer": 8,
+      "slot_width": 32,
+      "logit_mae": 1.9957998957827974,
+      "logit_rmse": 2.455289924852896,
+      "intra_slot_logit_var": 3.8774145971784244,
+      "value_mae": 0.6652169993398531,
+      "value_rel": 0.7335305714249866
+    },
+    {
+      "layer": 9,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 9,
+      "slot_width": 2,
+      "logit_mae": 0.3625768583694855,
+      "logit_rmse": 0.6316591050969682,
+      "intra_slot_logit_var": 1.0382562636427044,
+      "value_mae": 0.24447148673059058,
+      "value_rel": 0.2987861610697703
+    },
+    {
+      "layer": 9,
+      "slot_width": 4,
+      "logit_mae": 0.7961333472277691,
+      "logit_rmse": 1.1419207355720633,
+      "intra_slot_logit_var": 2.1490070082383137,
+      "value_mae": 0.35077288462358985,
+      "value_rel": 0.4659203441044006
+    },
+    {
+      "layer": 9,
+      "slot_width": 8,
+      "logit_mae": 1.1647922492590768,
+      "logit_rmse": 1.5163640254135917,
+      "intra_slot_logit_var": 2.9822814087126894,
+      "value_mae": 0.38941958496525325,
+      "value_rel": 0.5584942933433235
+    },
+    {
+      "layer": 9,
+      "slot_width": 16,
+      "logit_mae": 1.6705662997379165,
+      "logit_rmse": 2.1352396611570024,
+      "intra_slot_logit_var": 4.007334752094639,
+      "value_mae": 0.421168507042528,
+      "value_rel": 0.6381606151475221
+    },
+    {
+      "layer": 9,
+      "slot_width": 32,
+      "logit_mae": 1.9206026065017734,
+      "logit_rmse": 2.4159465740491823,
+      "intra_slot_logit_var": 4.191925833005722,
+      "value_mae": 0.4025620536069033,
+      "value_rel": 0.6595208946080994
+    },
+    {
+      "layer": 10,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 10,
+      "slot_width": 2,
+      "logit_mae": 0.3949842390668012,
+      "logit_rmse": 0.7759240312641609,
+      "intra_slot_logit_var": 1.2843502834818004,
+      "value_mae": 0.24201899228743218,
+      "value_rel": 0.2839194932167527
+    },
+    {
+      "layer": 10,
+      "slot_width": 4,
+      "logit_mae": 0.8191766220088258,
+      "logit_rmse": 1.3519687672532563,
+      "intra_slot_logit_var": 2.1876781545431485,
+      "value_mae": 0.3683076480683741,
+      "value_rel": 0.4503893289540939
+    },
+    {
+      "layer": 10,
+      "slot_width": 8,
+      "logit_mae": 1.2126786689433142,
+      "logit_rmse": 1.8020996902506592,
+      "intra_slot_logit_var": 2.760867544053738,
+      "value_mae": 0.4497284608402718,
+      "value_rel": 0.5562378744892444
+    },
+    {
+      "layer": 10,
+      "slot_width": 16,
+      "logit_mae": 1.9453351939447627,
+      "logit_rmse": 2.825330863089803,
+      "intra_slot_logit_var": 3.8821990964412034,
+      "value_mae": 0.5631516734137276,
+      "value_rel": 0.6598125908356627
+    },
+    {
+      "layer": 10,
+      "slot_width": 32,
+      "logit_mae": 2.3623226500680667,
+      "logit_rmse": 3.2811650533730385,
+      "intra_slot_logit_var": 3.939079366353135,
+      "value_mae": 0.6609671488563815,
+      "value_rel": 0.710237466293433
+    },
+    {
+      "layer": 11,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 11,
+      "slot_width": 2,
+      "logit_mae": 0.4969580281877033,
+      "logit_rmse": 0.9121991476448207,
+      "intra_slot_logit_var": 1.6797545753598433,
+      "value_mae": 0.315553122336069,
+      "value_rel": 0.2532726349111116
+    },
+    {
+      "layer": 11,
+      "slot_width": 4,
+      "logit_mae": 1.0401571616721879,
+      "logit_rmse": 1.5825090476276347,
+      "intra_slot_logit_var": 3.1584776975329936,
+      "value_mae": 0.4686523361432112,
+      "value_rel": 0.3959106893773655
+    },
+    {
+      "layer": 11,
+      "slot_width": 8,
+      "logit_mae": 1.5990077806138012,
+      "logit_rmse": 2.2268475843693296,
+      "intra_slot_logit_var": 4.518048264194209,
+      "value_mae": 0.5611553895200976,
+      "value_rel": 0.48834474739849176
+    },
+    {
+      "layer": 11,
+      "slot_width": 16,
+      "logit_mae": 2.173991705776847,
+      "logit_rmse": 2.864050197856256,
+      "intra_slot_logit_var": 5.691440316529583,
+      "value_mae": 0.6376352614959118,
+      "value_rel": 0.5608391796731944
+    },
+    {
+      "layer": 11,
+      "slot_width": 32,
+      "logit_mae": 2.569362869099325,
+      "logit_rmse": 3.211523793786438,
+      "intra_slot_logit_var": 6.0331812660495014,
+      "value_mae": 0.6919304339227125,
+      "value_rel": 0.5941256455742062
+    },
+    {
+      "layer": 12,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 12,
+      "slot_width": 2,
+      "logit_mae": 0.3922896666965291,
+      "logit_rmse": 0.7257732369709697,
+      "intra_slot_logit_var": 1.2089220389186675,
+      "value_mae": 0.3700892906894222,
+      "value_rel": 0.27848958851711036
+    },
+    {
+      "layer": 12,
+      "slot_width": 4,
+      "logit_mae": 0.7845496462680994,
+      "logit_rmse": 1.206907885743137,
+      "intra_slot_logit_var": 2.070589873239299,
+      "value_mae": 0.5907106584303198,
+      "value_rel": 0.44471695475518974
+    },
+    {
+      "layer": 12,
+      "slot_width": 8,
+      "logit_mae": 1.3491896477469822,
+      "logit_rmse": 1.9152850998589677,
+      "intra_slot_logit_var": 3.2003208359929305,
+      "value_mae": 0.8105184541936532,
+      "value_rel": 0.5862111137246772
+    },
+    {
+      "layer": 12,
+      "slot_width": 16,
+      "logit_mae": 1.9548503214627917,
+      "logit_rmse": 2.591679221843419,
+      "intra_slot_logit_var": 4.189616784006234,
+      "value_mae": 1.0584965664071206,
+      "value_rel": 0.7025228261925752
+    },
+    {
+      "layer": 12,
+      "slot_width": 32,
+      "logit_mae": 2.411935026181076,
+      "logit_rmse": 2.981911040760706,
+      "intra_slot_logit_var": 4.6776172711456105,
+      "value_mae": 1.298805261321956,
+      "value_rel": 0.7919756993491849
+    },
+    {
+      "layer": 13,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 13,
+      "slot_width": 2,
+      "logit_mae": 0.4633308870910689,
+      "logit_rmse": 0.8579726239403824,
+      "intra_slot_logit_var": 1.5306312529793673,
+      "value_mae": 0.42470733829310886,
+      "value_rel": 0.26331532365244825
+    },
+    {
+      "layer": 13,
+      "slot_width": 4,
+      "logit_mae": 0.9617010680324635,
+      "logit_rmse": 1.4651083873338173,
+      "intra_slot_logit_var": 2.7745630982883527,
+      "value_mae": 0.6854802677354339,
+      "value_rel": 0.41785294453121075
+    },
+    {
+      "layer": 13,
+      "slot_width": 8,
+      "logit_mae": 1.4362814443973273,
+      "logit_rmse": 1.9653228430035752,
+      "intra_slot_logit_var": 3.8198365335268645,
+      "value_mae": 0.8876911162221585,
+      "value_rel": 0.526394724799699
+    },
+    {
+      "layer": 13,
+      "slot_width": 16,
+      "logit_mae": 1.939206549844972,
+      "logit_rmse": 2.493337546513426,
+      "intra_slot_logit_var": 4.746603691568065,
+      "value_mae": 1.1034226201264763,
+      "value_rel": 0.6110145744461745
+    },
+    {
+      "layer": 13,
+      "slot_width": 32,
+      "logit_mae": 2.4615200459318958,
+      "logit_rmse": 3.054622517581027,
+      "intra_slot_logit_var": 5.298309979653205,
+      "value_mae": 1.4382537702932092,
+      "value_rel": 0.6825280608150638
+    },
+    {
+      "layer": 14,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 14,
+      "slot_width": 2,
+      "logit_mae": 0.37063662385199625,
+      "logit_rmse": 0.692271427811016,
+      "intra_slot_logit_var": 1.1261174653909838,
+      "value_mae": 0.4922221925629513,
+      "value_rel": 0.2770447806694481
+    },
+    {
+      "layer": 14,
+      "slot_width": 4,
+      "logit_mae": 0.7528989701090671,
+      "logit_rmse": 1.177733397288957,
+      "intra_slot_logit_var": 1.976318485533477,
+      "value_mae": 0.7778420888461742,
+      "value_rel": 0.43658981456322005
+    },
+    {
+      "layer": 14,
+      "slot_width": 8,
+      "logit_mae": 1.1514192912985954,
+      "logit_rmse": 1.624168278446362,
+      "intra_slot_logit_var": 2.7040061077190343,
+      "value_mae": 0.9975403888426008,
+      "value_rel": 0.5546395483519485
+    },
+    {
+      "layer": 14,
+      "slot_width": 16,
+      "logit_mae": 1.6685450493747886,
+      "logit_rmse": 2.217015122807313,
+      "intra_slot_logit_var": 3.517925569067485,
+      "value_mae": 1.2838910274016833,
+      "value_rel": 0.660632571496252
+    },
+    {
+      "layer": 14,
+      "slot_width": 32,
+      "logit_mae": 2.0779463545413295,
+      "logit_rmse": 2.6244412147760268,
+      "intra_slot_logit_var": 3.8807878841424652,
+      "value_mae": 1.589105430455994,
+      "value_rel": 0.7312637733443136
+    },
+    {
+      "layer": 15,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 15,
+      "slot_width": 2,
+      "logit_mae": 0.38810792809279976,
+      "logit_rmse": 0.7010866592552434,
+      "intra_slot_logit_var": 1.16887926459037,
+      "value_mae": 0.6352040599859466,
+      "value_rel": 0.28713028167689464
+    },
+    {
+      "layer": 15,
+      "slot_width": 4,
+      "logit_mae": 0.8259905857736788,
+      "logit_rmse": 1.2496109654319933,
+      "intra_slot_logit_var": 2.2942018765119485,
+      "value_mae": 0.9226013475983175,
+      "value_rel": 0.4562425898648617
+    },
+    {
+      "layer": 15,
+      "slot_width": 8,
+      "logit_mae": 1.4252242704271023,
+      "logit_rmse": 1.9818710267952235,
+      "intra_slot_logit_var": 3.6949531558131765,
+      "value_mae": 1.0899972297664022,
+      "value_rel": 0.5894428418154681
+    },
+    {
+      "layer": 15,
+      "slot_width": 16,
+      "logit_mae": 2.0295830336669023,
+      "logit_rmse": 2.681971707490198,
+      "intra_slot_logit_var": 4.7556265132344295,
+      "value_mae": 1.1481989627585911,
+      "value_rel": 0.6865507002225587
+    },
+    {
+      "layer": 15,
+      "slot_width": 32,
+      "logit_mae": 2.286374273851546,
+      "logit_rmse": 2.911608793535137,
+      "intra_slot_logit_var": 4.834918624583863,
+      "value_mae": 1.0917738316145904,
+      "value_rel": 0.7303707686430382
+    },
+    {
+      "layer": 16,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 16,
+      "slot_width": 2,
+      "logit_mae": 0.4374736897456296,
+      "logit_rmse": 0.8256813792389548,
+      "intra_slot_logit_var": 1.4349666730313115,
+      "value_mae": 0.7137048800343341,
+      "value_rel": 0.26867454716601785
+    },
+    {
+      "layer": 16,
+      "slot_width": 4,
+      "logit_mae": 0.904275767055992,
+      "logit_rmse": 1.4230527031371016,
+      "intra_slot_logit_var": 2.653078915131224,
+      "value_mae": 1.02619333142004,
+      "value_rel": 0.41822998395867905
+    },
+    {
+      "layer": 16,
+      "slot_width": 8,
+      "logit_mae": 1.4055180868128851,
+      "logit_rmse": 2.016167851546779,
+      "intra_slot_logit_var": 3.811453929311404,
+      "value_mae": 1.1839851859741921,
+      "value_rel": 0.520806727368718
+    },
+    {
+      "layer": 16,
+      "slot_width": 16,
+      "logit_mae": 1.8598554151215947,
+      "logit_rmse": 2.5293007727891843,
+      "intra_slot_logit_var": 4.641586423292175,
+      "value_mae": 1.2387067340126363,
+      "value_rel": 0.5889736406462033
+    },
+    {
+      "layer": 16,
+      "slot_width": 32,
+      "logit_mae": 2.0316233992321333,
+      "logit_rmse": 2.5653557263383013,
+      "intra_slot_logit_var": 4.414381725629852,
+      "value_mae": 1.2003512862407677,
+      "value_rel": 0.6230447225958683
+    },
+    {
+      "layer": 17,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 17,
+      "slot_width": 2,
+      "logit_mae": 0.3641362632194434,
+      "logit_rmse": 0.7006144332904982,
+      "intra_slot_logit_var": 1.1263939178653763,
+      "value_mae": 0.9984118024200587,
+      "value_rel": 0.25902728248704326
+    },
+    {
+      "layer": 17,
+      "slot_width": 4,
+      "logit_mae": 0.7261194384469927,
+      "logit_rmse": 1.1648721989650968,
+      "intra_slot_logit_var": 1.9392811813631345,
+      "value_mae": 1.4647292268131586,
+      "value_rel": 0.4124304226768945
+    },
+    {
+      "layer": 17,
+      "slot_width": 8,
+      "logit_mae": 1.0782717208537147,
+      "logit_rmse": 1.5737257892260437,
+      "intra_slot_logit_var": 2.6089855074374446,
+      "value_mae": 1.6711527313755632,
+      "value_rel": 0.5188840536219536
+    },
+    {
+      "layer": 17,
+      "slot_width": 16,
+      "logit_mae": 1.5519426830637353,
+      "logit_rmse": 2.1678821006295426,
+      "intra_slot_logit_var": 3.4222984751441166,
+      "value_mae": 1.7974850480421056,
+      "value_rel": 0.6167334603193408
+    },
+    {
+      "layer": 17,
+      "slot_width": 32,
+      "logit_mae": 1.9513002023962376,
+      "logit_rmse": 2.639451600221467,
+      "intra_slot_logit_var": 3.818992418701695,
+      "value_mae": 1.8488030607235764,
+      "value_rel": 0.688306436804173
+    },
+    {
+      "layer": 18,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 18,
+      "slot_width": 2,
+      "logit_mae": 0.36779282120953344,
+      "logit_rmse": 0.6671380047457538,
+      "intra_slot_logit_var": 1.090296973507032,
+      "value_mae": 1.282272721036525,
+      "value_rel": 0.2888489234710522
+    },
+    {
+      "layer": 18,
+      "slot_width": 4,
+      "logit_mae": 0.7762163069075575,
+      "logit_rmse": 1.1819954724476198,
+      "intra_slot_logit_var": 2.098587153201463,
+      "value_mae": 1.8231659677288614,
+      "value_rel": 0.4529256731785553
+    },
+    {
+      "layer": 18,
+      "slot_width": 8,
+      "logit_mae": 1.2249737541142567,
+      "logit_rmse": 1.698988554677053,
+      "intra_slot_logit_var": 3.110696163790857,
+      "value_mae": 2.0837638360961654,
+      "value_rel": 0.5658018362609881
+    },
+    {
+      "layer": 18,
+      "slot_width": 16,
+      "logit_mae": 1.6853713780638822,
+      "logit_rmse": 2.204770526983626,
+      "intra_slot_logit_var": 4.006242653312098,
+      "value_mae": 2.1670325183098256,
+      "value_rel": 0.6480485468903211
+    },
+    {
+      "layer": 18,
+      "slot_width": 32,
+      "logit_mae": 2.0062196637629444,
+      "logit_rmse": 2.557408628065734,
+      "intra_slot_logit_var": 4.117959326799217,
+      "value_mae": 2.1127078691437617,
+      "value_rel": 0.6972909126853535
+    },
+    {
+      "layer": 19,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 19,
+      "slot_width": 2,
+      "logit_mae": 0.30307131417632766,
+      "logit_rmse": 0.5645990502373359,
+      "intra_slot_logit_var": 0.8577208397961643,
+      "value_mae": 1.630588656997174,
+      "value_rel": 0.2905773091174717
+    },
+    {
+      "layer": 19,
+      "slot_width": 4,
+      "logit_mae": 0.6397431059952613,
+      "logit_rmse": 0.9992985209192714,
+      "intra_slot_logit_var": 1.6662412506283173,
+      "value_mae": 2.2562437088091594,
+      "value_rel": 0.4466803942726417
+    },
+    {
+      "layer": 19,
+      "slot_width": 8,
+      "logit_mae": 0.9835994018597549,
+      "logit_rmse": 1.4098365528424452,
+      "intra_slot_logit_var": 2.4495784683404898,
+      "value_mae": 2.482246129635645,
+      "value_rel": 0.540033591694261
+    },
+    {
+      "layer": 19,
+      "slot_width": 16,
+      "logit_mae": 1.3166064554653638,
+      "logit_rmse": 1.7854324397875905,
+      "intra_slot_logit_var": 3.056553812817695,
+      "value_mae": 2.5235254411534607,
+      "value_rel": 0.6129206423257549
+    },
+    {
+      "layer": 19,
+      "slot_width": 32,
+      "logit_mae": 1.5591389658109023,
+      "logit_rmse": 2.073689292951627,
+      "intra_slot_logit_var": 3.07151449722192,
+      "value_mae": 2.443766028263329,
+      "value_rel": 0.6755057095970791
+    },
+    {
+      "layer": 20,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 20,
+      "slot_width": 2,
+      "logit_mae": 0.43078412451004944,
+      "logit_rmse": 0.7474737087015068,
+      "intra_slot_logit_var": 1.3087034056001032,
+      "value_mae": 2.2794995644093663,
+      "value_rel": 0.3291894693819327
+    },
+    {
+      "layer": 20,
+      "slot_width": 4,
+      "logit_mae": 0.9174128780835226,
+      "logit_rmse": 1.3376961166441603,
+      "intra_slot_logit_var": 2.583646503409216,
+      "value_mae": 3.0866635814535393,
+      "value_rel": 0.48818549019455393
+    },
+    {
+      "layer": 20,
+      "slot_width": 8,
+      "logit_mae": 1.3641817409555286,
+      "logit_rmse": 1.8259034474284266,
+      "intra_slot_logit_var": 3.647126386997913,
+      "value_mae": 3.3198811792301974,
+      "value_rel": 0.5729725396711667
+    },
+    {
+      "layer": 20,
+      "slot_width": 16,
+      "logit_mae": 1.7631633029494296,
+      "logit_rmse": 2.246397481106193,
+      "intra_slot_logit_var": 4.36768974520104,
+      "value_mae": 3.3417044333321155,
+      "value_rel": 0.6336936733367586
+    },
+    {
+      "layer": 20,
+      "slot_width": 32,
+      "logit_mae": 1.9916223938511066,
+      "logit_rmse": 2.4883889053838724,
+      "intra_slot_logit_var": 4.188244527616644,
+      "value_mae": 3.1402698655710486,
+      "value_rel": 0.6737809926590521
+    },
+    {
+      "layer": 21,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 21,
+      "slot_width": 2,
+      "logit_mae": 0.382570973957257,
+      "logit_rmse": 0.6942261389950932,
+      "intra_slot_logit_var": 1.1516291341071263,
+      "value_mae": 2.7594522660849496,
+      "value_rel": 0.3371850161188301
+    },
+    {
+      "layer": 21,
+      "slot_width": 4,
+      "logit_mae": 0.7762540304680663,
+      "logit_rmse": 1.183888283507771,
+      "intra_slot_logit_var": 2.083398117270753,
+      "value_mae": 3.7041611424522314,
+      "value_rel": 0.4997039344232821
+    },
+    {
+      "layer": 21,
+      "slot_width": 8,
+      "logit_mae": 1.150981706355441,
+      "logit_rmse": 1.6381497235983786,
+      "intra_slot_logit_var": 2.8225835221537046,
+      "value_mae": 4.014455985210054,
+      "value_rel": 0.5938844165336434
+    },
+    {
+      "layer": 21,
+      "slot_width": 16,
+      "logit_mae": 1.5908891513958714,
+      "logit_rmse": 2.160569031389459,
+      "intra_slot_logit_var": 3.507319698030056,
+      "value_mae": 4.17162234653866,
+      "value_rel": 0.6774103071199072
+    },
+    {
+      "layer": 21,
+      "slot_width": 32,
+      "logit_mae": 1.8907507624820161,
+      "logit_rmse": 2.401320526423242,
+      "intra_slot_logit_var": 3.5831251450728554,
+      "value_mae": 4.047668751097849,
+      "value_rel": 0.7475962955384999
+    },
+    {
+      "layer": 22,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 22,
+      "slot_width": 2,
+      "logit_mae": 0.36966494812032763,
+      "logit_rmse": 0.6964160563555205,
+      "intra_slot_logit_var": 1.1316937570616796,
+      "value_mae": 3.383137462402448,
+      "value_rel": 0.33525750492897416
+    },
+    {
+      "layer": 22,
+      "slot_width": 4,
+      "logit_mae": 0.765988798940107,
+      "logit_rmse": 1.2151070933532668,
+      "intra_slot_logit_var": 2.0568598528458915,
+      "value_mae": 4.561521505703892,
+      "value_rel": 0.4958277753810856
+    },
+    {
+      "layer": 22,
+      "slot_width": 8,
+      "logit_mae": 1.1610340060766517,
+      "logit_rmse": 1.6697539125530507,
+      "intra_slot_logit_var": 2.877329829237065,
+      "value_mae": 5.025028896368737,
+      "value_rel": 0.5934000556388598
+    },
+    {
+      "layer": 22,
+      "slot_width": 16,
+      "logit_mae": 1.5507572132961087,
+      "logit_rmse": 2.0999874802005385,
+      "intra_slot_logit_var": 3.4752130960667693,
+      "value_mae": 5.122891381408924,
+      "value_rel": 0.674644340317523
+    },
+    {
+      "layer": 22,
+      "slot_width": 32,
+      "logit_mae": 1.7342017049197211,
+      "logit_rmse": 2.311760436380509,
+      "intra_slot_logit_var": 3.0841260170783427,
+      "value_mae": 4.584680332616769,
+      "value_rel": 0.7414573734781726
+    },
+    {
+      "layer": 23,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 23,
+      "slot_width": 2,
+      "logit_mae": 0.3870986216734275,
+      "logit_rmse": 0.6964089684931472,
+      "intra_slot_logit_var": 1.1623979048001238,
+      "value_mae": 3.909488478754673,
+      "value_rel": 0.3541896469708594
+    },
+    {
+      "layer": 23,
+      "slot_width": 4,
+      "logit_mae": 0.7919661628657674,
+      "logit_rmse": 1.1959428005997395,
+      "intra_slot_logit_var": 2.0957930740186295,
+      "value_mae": 5.182619698312126,
+      "value_rel": 0.5103570450155979
+    },
+    {
+      "layer": 23,
+      "slot_width": 8,
+      "logit_mae": 1.2153636277622606,
+      "logit_rmse": 1.6701512711937534,
+      "intra_slot_logit_var": 2.9670667963866713,
+      "value_mae": 5.7151805653030765,
+      "value_rel": 0.5967873648126566
+    },
+    {
+      "layer": 23,
+      "slot_width": 16,
+      "logit_mae": 1.661137314381879,
+      "logit_rmse": 2.1507721733055387,
+      "intra_slot_logit_var": 3.6775566315972568,
+      "value_mae": 5.9143337196764225,
+      "value_rel": 0.6702043849951282
+    },
+    {
+      "layer": 23,
+      "slot_width": 32,
+      "logit_mae": 1.7627546486047911,
+      "logit_rmse": 2.2733199171780774,
+      "intra_slot_logit_var": 3.239692622640148,
+      "value_mae": 5.154343206826319,
+      "value_rel": 0.7156038427250799
+    },
+    {
+      "layer": 24,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 24,
+      "slot_width": 2,
+      "logit_mae": 0.3954304807979524,
+      "logit_rmse": 0.709454239662744,
+      "intra_slot_logit_var": 1.1934081850273883,
+      "value_mae": 5.237755876537172,
+      "value_rel": 0.3645205242325192
+    },
+    {
+      "layer": 24,
+      "slot_width": 4,
+      "logit_mae": 0.8124651190302918,
+      "logit_rmse": 1.2202011035501341,
+      "intra_slot_logit_var": 2.148141239259356,
+      "value_mae": 7.058280084082983,
+      "value_rel": 0.5271632451722521
+    },
+    {
+      "layer": 24,
+      "slot_width": 8,
+      "logit_mae": 1.2139077915234513,
+      "logit_rmse": 1.6610963642015513,
+      "intra_slot_logit_var": 2.944183187843154,
+      "value_mae": 7.860018284918494,
+      "value_rel": 0.6143048100026252
+    },
+    {
+      "layer": 24,
+      "slot_width": 16,
+      "logit_mae": 1.5805169334977858,
+      "logit_rmse": 2.050181331380092,
+      "intra_slot_logit_var": 3.432815997920212,
+      "value_mae": 8.088117421477435,
+      "value_rel": 0.6912771272825584
+    },
+    {
+      "layer": 24,
+      "slot_width": 32,
+      "logit_mae": 1.6581604036580317,
+      "logit_rmse": 2.1459749071296317,
+      "intra_slot_logit_var": 2.978125561993944,
+      "value_mae": 7.062236058890692,
+      "value_rel": 0.7486445367719172
+    },
+    {
+      "layer": 25,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 25,
+      "slot_width": 2,
+      "logit_mae": 0.3969884916034815,
+      "logit_rmse": 0.6811443293448681,
+      "intra_slot_logit_var": 1.1604999348094305,
+      "value_mae": 6.504511155656327,
+      "value_rel": 0.39988469072598654
+    },
+    {
+      "layer": 25,
+      "slot_width": 4,
+      "logit_mae": 0.7920645503032083,
+      "logit_rmse": 1.1482263346170962,
+      "intra_slot_logit_var": 2.0368253655931143,
+      "value_mae": 8.40227317248628,
+      "value_rel": 0.5591818906601103
+    },
+    {
+      "layer": 25,
+      "slot_width": 8,
+      "logit_mae": 1.1709263975238764,
+      "logit_rmse": 1.5621570799350954,
+      "intra_slot_logit_var": 2.7542572804081122,
+      "value_mae": 9.1327477394172,
+      "value_rel": 0.6343611037347816
+    },
+    {
+      "layer": 25,
+      "slot_width": 16,
+      "logit_mae": 1.5014285739544413,
+      "logit_rmse": 1.9231289896834505,
+      "intra_slot_logit_var": 3.1536552502582342,
+      "value_mae": 9.304737062840175,
+      "value_rel": 0.6926560699885029
+    },
+    {
+      "layer": 25,
+      "slot_width": 32,
+      "logit_mae": 1.5528230932591047,
+      "logit_rmse": 1.9865725727106962,
+      "intra_slot_logit_var": 2.7590201743409772,
+      "value_mae": 7.836031209222765,
+      "value_rel": 0.724550210434058
+    },
+    {
+      "layer": 26,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 26,
+      "slot_width": 2,
+      "logit_mae": 0.3367180821577056,
+      "logit_rmse": 0.5995539933476242,
+      "intra_slot_logit_var": 0.9560617637199086,
+      "value_mae": 6.0976506369171215,
+      "value_rel": 0.35568602806449545
+    },
+    {
+      "layer": 26,
+      "slot_width": 4,
+      "logit_mae": 0.6940551655269749,
+      "logit_rmse": 1.0312798338711184,
+      "intra_slot_logit_var": 1.7377176560603897,
+      "value_mae": 8.107621656082562,
+      "value_rel": 0.507086810552663
+    },
+    {
+      "layer": 26,
+      "slot_width": 8,
+      "logit_mae": 1.030084247286123,
+      "logit_rmse": 1.401356314421999,
+      "intra_slot_logit_var": 2.313042745992963,
+      "value_mae": 8.910607486268153,
+      "value_rel": 0.5860349138223677
+    },
+    {
+      "layer": 26,
+      "slot_width": 16,
+      "logit_mae": 1.3341527948021135,
+      "logit_rmse": 1.726817092659762,
+      "intra_slot_logit_var": 2.6472238764321356,
+      "value_mae": 9.168023917175514,
+      "value_rel": 0.6452115431907932
+    },
+    {
+      "layer": 26,
+      "slot_width": 32,
+      "logit_mae": 1.4431207358709495,
+      "logit_rmse": 1.9133579380557828,
+      "intra_slot_logit_var": 2.4009296735808476,
+      "value_mae": 8.07905964167266,
+      "value_rel": 0.6479346828746592
+    },
+    {
+      "layer": 27,
+      "slot_width": 1,
+      "logit_mae": 0.0,
+      "logit_rmse": 0.0,
+      "intra_slot_logit_var": 0.0,
+      "value_mae": 0.0,
+      "value_rel": 0.0
+    },
+    {
+      "layer": 27,
+      "slot_width": 2,
+      "logit_mae": 0.20069514125733603,
+      "logit_rmse": 0.39584001358622306,
+      "intra_slot_logit_var": 0.5211728322225004,
+      "value_mae": 2.7216514982627413,
+      "value_rel": 0.218406649281455
+    },
+    {
+      "layer": 27,
+      "slot_width": 4,
+      "logit_mae": 0.40041799454983923,
+      "logit_rmse": 0.6479636084966631,
+      "intra_slot_logit_var": 0.9406959773591538,
+      "value_mae": 3.5491780390367604,
+      "value_rel": 0.31144594646015944
+    },
+    {
+      "layer": 27,
+      "slot_width": 8,
+      "logit_mae": 0.6069679959898353,
+      "logit_rmse": 0.9085300047267133,
+      "intra_slot_logit_var": 1.3240558460579968,
+      "value_mae": 3.6848211216769537,
+      "value_rel": 0.3461498900191445
+    },
+    {
+      "layer": 27,
+      "slot_width": 16,
+      "logit_mae": 0.8140550309981383,
+      "logit_rmse": 1.1821366013614552,
+      "intra_slot_logit_var": 1.6143742609682614,
+      "value_mae": 3.7383055118745627,
+      "value_rel": 0.374227314826446
+    },
+    {
+      "layer": 27,
+      "slot_width": 32,
+      "logit_mae": 1.0723973423306385,
+      "logit_rmse": 1.5044000644774553,
+      "intra_slot_logit_var": 1.883606880073629,
+      "value_mae": 3.897788364320547,
+      "value_rel": 0.41767273929440746
+    }
+  ],
+  "by_layer_output": [
+    {
+      "layer": 0,
+      "err_baseline": 0.03431212488182052,
+      "err_s_oracle": 0.05653830810522788,
+      "err_v_oracle": 0.028631425190811605,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 1,
+      "err_baseline": 0.0812338115040851,
+      "err_s_oracle": 0.1535185586319234,
+      "err_v_oracle": 0.07159595916588643,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 2,
+      "err_baseline": 0.09279703722132894,
+      "err_s_oracle": 0.15594838760762514,
+      "err_v_oracle": 0.0878889728712318,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 3,
+      "err_baseline": 0.2899839376055985,
+      "err_s_oracle": 0.4546161980364486,
+      "err_v_oracle": 0.2844866351887617,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 4,
+      "err_baseline": 0.2471203915386557,
+      "err_s_oracle": 0.3251823109849519,
+      "err_v_oracle": 0.24382383057164117,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 5,
+      "err_baseline": 0.361873954173525,
+      "err_s_oracle": 0.4824026980766676,
+      "err_v_oracle": 0.35884754850273126,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 6,
+      "err_baseline": 0.24912277571475833,
+      "err_s_oracle": 0.35417290031055415,
+      "err_v_oracle": 0.24339298386280647,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 7,
+      "err_baseline": 0.4374428287698467,
+      "err_s_oracle": 0.5161344806183227,
+      "err_v_oracle": 0.43283647968028144,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 8,
+      "err_baseline": 0.4648193606226115,
+      "err_s_oracle": 0.7073344939485245,
+      "err_v_oracle": 0.42744108260072994,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 9,
+      "err_baseline": 0.4621320354948806,
+      "err_s_oracle": 0.4782988327153001,
+      "err_v_oracle": 0.45999962929357624,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 10,
+      "err_baseline": 0.38350763258804743,
+      "err_s_oracle": 0.43045805366779205,
+      "err_v_oracle": 0.3817954376845727,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 11,
+      "err_baseline": 0.34072819773948076,
+      "err_s_oracle": 0.2954911080345554,
+      "err_v_oracle": 0.33166018513139667,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 12,
+      "err_baseline": 0.41065273134192476,
+      "err_s_oracle": 0.8353506189747146,
+      "err_v_oracle": 0.39373769061615815,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 13,
+      "err_baseline": 0.31936066520514833,
+      "err_s_oracle": 0.45935685647335117,
+      "err_v_oracle": 0.3011060036086553,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 14,
+      "err_baseline": 0.33757976624827263,
+      "err_s_oracle": 0.6080846304393845,
+      "err_v_oracle": 0.31685934975559304,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 15,
+      "err_baseline": 0.3804739803255986,
+      "err_s_oracle": 0.42510856109290013,
+      "err_v_oracle": 0.3747897214679699,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 16,
+      "err_baseline": 0.28191570380168657,
+      "err_s_oracle": 0.33835228438695286,
+      "err_v_oracle": 0.2711453231022065,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 17,
+      "err_baseline": 0.31650677075105627,
+      "err_s_oracle": 0.38998074763012913,
+      "err_v_oracle": 0.3139190579131328,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 18,
+      "err_baseline": 0.3486499306293405,
+      "err_s_oracle": 0.43056570434638947,
+      "err_v_oracle": 0.33194591121466505,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 19,
+      "err_baseline": 0.32514007147426416,
+      "err_s_oracle": 0.44307221662086893,
+      "err_v_oracle": 0.311950950495656,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 20,
+      "err_baseline": 0.366763998944591,
+      "err_s_oracle": 0.44545461255030383,
+      "err_v_oracle": 0.3588115631850911,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 21,
+      "err_baseline": 0.355790778353664,
+      "err_s_oracle": 0.5989619106658088,
+      "err_v_oracle": 0.3379944041422082,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 22,
+      "err_baseline": 0.3228121859772243,
+      "err_s_oracle": 0.5079921113965098,
+      "err_v_oracle": 0.31463089451747794,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 23,
+      "err_baseline": 0.3648485953347807,
+      "err_s_oracle": 0.6023406218020658,
+      "err_v_oracle": 0.35728719756143934,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 24,
+      "err_baseline": 0.40757718127923187,
+      "err_s_oracle": 0.6514295216569853,
+      "err_v_oracle": 0.39130682396947264,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 25,
+      "err_baseline": 0.4037680425098035,
+      "err_s_oracle": 0.612372731995384,
+      "err_v_oracle": 0.3840774246362735,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 26,
+      "err_baseline": 0.29895509622808575,
+      "err_s_oracle": 0.4685007068098314,
+      "err_v_oracle": 0.2829952438078912,
+      "n_queries": 2382752
+    },
+    {
+      "layer": 27,
+      "err_baseline": 0.3116666187450351,
+      "err_s_oracle": 0.46814555557573856,
+      "err_v_oracle": 0.30322994736991005,
+      "n_queries": 2382752
+    }
+  ],
+  "peakiness": [
+    {
+      "layer": 0,
+      "r2_max": 88.39949035644531,
+      "r2_p999": 42.259315490722656,
+      "n": 14897053696
+    },
+    {
+      "layer": 1,
+      "r2_max": 37.505245208740234,
+      "r2_p999": 24.36564064025879,
+      "n": 14897053696
+    },
+    {
+      "layer": 2,
+      "r2_max": 32.598167419433594,
+      "r2_p999": 20.340991973876953,
+      "n": 14897053696
+    },
+    {
+      "layer": 3,
+      "r2_max": 52.21151351928711,
+      "r2_p999": 21.775297164916992,
+      "n": 14897053696
+    },
+    {
+      "layer": 4,
+      "r2_max": 59.15745162963867,
+      "r2_p999": 26.0478515625,
+      "n": 14897053696
+    },
+    {
+      "layer": 5,
+      "r2_max": 53.4326171875,
+      "r2_p999": 22.812259674072266,
+      "n": 14897053696
+    },
+    {
+      "layer": 6,
+      "r2_max": 47.647640228271484,
+      "r2_p999": 24.339242935180664,
+      "n": 14897053696
+    },
+    {
+      "layer": 7,
+      "r2_max": 45.38127136230469,
+      "r2_p999": 27.966678619384766,
+      "n": 14897053696
+    },
+    {
+      "layer": 8,
+      "r2_max": 29.903226852416992,
+      "r2_p999": 19.658876419067383,
+      "n": 14897053696
+    },
+    {
+      "layer": 9,
+      "r2_max": 37.7302131652832,
+      "r2_p999": 18.515623092651367,
+      "n": 14897053696
+    },
+    {
+      "layer": 10,
+      "r2_max": 42.29368591308594,
+      "r2_p999": 20.053693771362305,
+      "n": 14897053696
+    },
+    {
+      "layer": 11,
+      "r2_max": 48.50301742553711,
+      "r2_p999": 28.74323272705078,
+      "n": 14897053696
+    },
+    {
+      "layer": 12,
+      "r2_max": 29.87058448791504,
+      "r2_p999": 20.29327964782715,
+      "n": 14897053696
+    },
+    {
+      "layer": 13,
+      "r2_max": 32.90480041503906,
+      "r2_p999": 25.00994873046875,
+      "n": 14897053696
+    },
+    {
+      "layer": 14,
+      "r2_max": 29.068763732910156,
+      "r2_p999": 19.587669372558594,
+      "n": 14897053696
+    },
+    {
+      "layer": 15,
+      "r2_max": 34.843021392822266,
+      "r2_p999": 21.260845184326172,
+      "n": 14897053696
+    },
+    {
+      "layer": 16,
+      "r2_max": 42.582271575927734,
+      "r2_p999": 25.268909454345703,
+      "n": 14897053696
+    },
+    {
+      "layer": 17,
+      "r2_max": 27.730472564697266,
+      "r2_p999": 20.78703498840332,
+      "n": 14897053696
+    },
+    {
+      "layer": 18,
+      "r2_max": 35.47917175292969,
+      "r2_p999": 19.781248092651367,
+      "n": 14897053696
+    },
+    {
+      "layer": 19,
+      "r2_max": 33.66957092285156,
+      "r2_p999": 22.527021408081055,
+      "n": 14897053696
+    },
+    {
+      "layer": 20,
+      "r2_max": 32.911502838134766,
+      "r2_p999": 19.591997146606445,
+      "n": 14897053696
+    },
+    {
+      "layer": 21,
+      "r2_max": 32.10103988647461,
+      "r2_p999": 17.661380767822266,
+      "n": 14897053696
+    },
+    {
+      "layer": 22,
+      "r2_max": 28.466636657714844,
+      "r2_p999": 15.511614799499512,
+      "n": 14897053696
+    },
+    {
+      "layer": 23,
+      "r2_max": 32.283164978027344,
+      "r2_p999": 16.210126876831055,
+      "n": 14897053696
+    },
+    {
+      "layer": 24,
+      "r2_max": 23.754594802856445,
+      "r2_p999": 16.871007919311523,
+      "n": 14897053696
+    },
+    {
+      "layer": 25,
+      "r2_max": 20.689926147460938,
+      "r2_p999": 16.24452018737793,
+      "n": 14897053696
+    },
+    {
+      "layer": 26,
+      "r2_max": 18.181415557861328,
+      "r2_p999": 15.385391235351562,
+      "n": 14897053696
+    },
+    {
+      "layer": 27,
+      "r2_max": 24.587017059326172,
+      "r2_p999": 12.902106285095215,
+      "n": 14897053696
+    }
+  ]
+}
